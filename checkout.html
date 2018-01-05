@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Checkout Mirror Fashion</title>
+		￼<meta name="viewport" content="width=d">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/estilos.css">
+		<link rel="stylesheet" href="css/bootstrap-flatly.css">
+	</head>
+	<body>
+		
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="index.html">Mirror Fashion</a>
+
+								<button class="navbar-toggle" type="button" data-target=".navbar-collapse" data-toggle="collapse">
+									menu
+								</button>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="sobre.php">Sobre</a></li>
+				<li><a href="#">Ajuda</a></li>
+				<li><a href="#">Perguntas Frequentes</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Ótima escolha!</h1>
+				<p>Obrigado por comprar na Mirror Fashion!
+				Preencha seus dados para efetivar a compra.</p>
+			</div>
+		</div>
+		<div class="container">
+				<div class="row">
+					<div class="col-sm-4">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h2 class="panel-title">Sua compra</h2>
+							</div>
+				
+							<div class="panel-body">
+								<img src="img/produtos/foto1-verde.png" alt="Fuzzy Cardigan" class="img-thumbnail img-responsive">
+								<dl>
+									<dt>Nome</dt>
+									<dd>Fuzzy Cardigan</dd>
+										
+									<dt>Preço</dt>
+									<dd>129,90</dd>
+										
+									<dt>Cor</dt>
+									<dd>Verde</dd>
+
+									<dt>Tamanho</dt>
+									<dd>38</dd>
+								</dl>
+							</div>
+						</div>
+					</div>
+			<form class="col-sm-8">
+				<div class="row">
+					<fieldset class="col-sm-6">
+						<legend>Dados Pessoais</legend>
+					
+					<div class="form-group">
+						<label for="nome">Nome Completo</label>
+						<input type="text" class="form-control" id="nome" name="Nome" required>
+					</div>
+					<div class="form-group">
+						<label for="email" required>E-mail</label>
+						<input type="email" class="form-control" id="email" name="Email" placeholder="example@email.com" required>
+					</div>
+					<div class="form-group">
+						<label for="cpf">CPF</label>
+						<input type="text" class="form-control" id="cpf" name="cpf" placeholder="000.000.000-00" required>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox" value="sim" name="spam" checked> 
+							Quero receber spam da Mirror Fashion.
+						</label>
+					</div>
+
+
+				</fieldset>
+				<fieldset class="col-sm-6">
+					<legend>Cartão de Crédito</legend>
+					<div class="form-group">
+						<label for="numero-cartao">Número do Cartão</label>
+						<input type="text" class="form-control" id="numero-cartao" name="numero-cartao" required>
+					</div>
+					￼<div class="form-group">
+						￼<label for="bandeira-cartao">Bandeira</label>
+						￼<select name="bandeira-cartao" id="bandeira-cartao" class="form-control">
+							￼<option value="master">MasterCard</option>
+							￼<option value="visa">VISA</option>
+					￼		<option value="amex">American Express</option>
+						￼</select>
+					￼</div>					
+					<div class="form-group">
+						<label for="validade-cartao">Validade</label>
+						<input type="month" class="form-control" id="validade-cartao" name="validade-cartao">
+					</div>
+
+				</fieldset>
+				<button type="submit" class="btn btn-primary">
+				CONFIRMAR
+				</button>
+			</div>
+			</form>
+			
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
+	</body>
+</html>
