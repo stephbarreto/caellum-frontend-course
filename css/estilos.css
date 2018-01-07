@@ -213,6 +213,9 @@ footer .container {
 	content: '\272A';
 	padding-right: 3px;
 }
+.menu-departamentos li:hover{
+	background-color: #f5dcdc;
+}
 
 .painel h2:before {
 	content: '\2756';
@@ -243,12 +246,10 @@ footer .container {
 }
 
 .painel button {
-	/* posicionamento */
 	float: right;
 	margin-right: 10px;
 	padding: 10px;
 
-	/* estilo */
 	background-color: #333;
 	border: 0;
 	border-radius: 4px;
@@ -258,7 +259,6 @@ footer .container {
 	text-decoration: none;
 	text-shadow: 1px 0 1px black;
 
-	/* animação*/
 	transition: 0.3s;
 }
 
@@ -274,24 +274,20 @@ footer .container {
 }
 
 .painel button:after {
-	/* elemento vazio */
 	content: '';
 	display: block;
 	height: 0;
 	width: 0;
 
-	/* triangulo */
 	border-top: 10px solid #333;
 	border-left: 10px solid transparent;
 	border-right: 10px solid transparent;
 
-	/* posicionamento */
 	position: absolute;
 	top: 100%;
 	left: 50%;
 	margin-left: -5px;
 
-	/* animação */
 	transition: 0.3s;
 }
 
