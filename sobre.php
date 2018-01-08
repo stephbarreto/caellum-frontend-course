@@ -65,6 +65,10 @@
 			</article>
 		</div>
 		
+		
+		<iframe width="420" height="315" src="http://www.youtube.com/embed/Tb06abHE4hY"
+		frameborder="0" allowfullscreen></iframe>
+		
 		<div id="rodape">
 			￼<img src="img/logo.png">
 			&copy; Copyright Mirror Fashion
